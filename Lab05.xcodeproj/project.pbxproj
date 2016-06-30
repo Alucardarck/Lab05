@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		5B83811F1D24A40100862435 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B83811E1D24A40100862435 /* main.m */; };
 		5B8381221D24A40100862435 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8381211D24A40100862435 /* AppDelegate.m */; };
-		5B8381251D24A40100862435 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8381241D24A40100862435 /* ViewController.m */; };
+		5B8381251D24A40100862435 /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8381241D24A40100862435 /* Home.m */; };
 		5B8381281D24A40100862435 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B8381261D24A40100862435 /* Main.storyboard */; };
 		5B83812B1D24A40100862435 /* Lab05.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5B8381291D24A40100862435 /* Lab05.xcdatamodeld */; };
 		5B83812D1D24A40100862435 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B83812C1D24A40100862435 /* Assets.xcassets */; };
@@ -21,8 +21,8 @@
 		5B83811E1D24A40100862435 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5B8381201D24A40100862435 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5B8381211D24A40100862435 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5B8381231D24A40100862435 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5B8381241D24A40100862435 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5B8381231D24A40100862435 /* Home.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Home.h; sourceTree = "<group>"; };
+		5B8381241D24A40100862435 /* Home.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Home.m; sourceTree = "<group>"; };
 		5B8381271D24A40100862435 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5B83812A1D24A40100862435 /* Lab05.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Lab05.xcdatamodel; sourceTree = "<group>"; };
 		5B83812C1D24A40100862435 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,10 +60,8 @@
 		5B83811C1D24A40100862435 /* Lab05 */ = {
 			isa = PBXGroup;
 			children = (
-				5B8381201D24A40100862435 /* AppDelegate.h */,
-				5B8381211D24A40100862435 /* AppDelegate.m */,
-				5B8381231D24A40100862435 /* ViewController.h */,
-				5B8381241D24A40100862435 /* ViewController.m */,
+				5B8381381D24A41700862435 /* Controllers */,
+				5B8381371D24A41100862435 /* Main */,
 				5B8381261D24A40100862435 /* Main.storyboard */,
 				5B83812C1D24A40100862435 /* Assets.xcassets */,
 				5B83812E1D24A40100862435 /* LaunchScreen.storyboard */,
@@ -80,6 +78,24 @@
 				5B83811E1D24A40100862435 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5B8381371D24A41100862435 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				5B8381201D24A40100862435 /* AppDelegate.h */,
+				5B8381211D24A40100862435 /* AppDelegate.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		5B8381381D24A41700862435 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5B8381231D24A40100862435 /* Home.h */,
+				5B8381241D24A40100862435 /* Home.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,7 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B8381251D24A40100862435 /* ViewController.m in Sources */,
+				5B8381251D24A40100862435 /* Home.m in Sources */,
 				5B8381221D24A40100862435 /* AppDelegate.m in Sources */,
 				5B83812B1D24A40100862435 /* Lab05.xcdatamodeld in Sources */,
 				5B83811F1D24A40100862435 /* main.m in Sources */,
