@@ -14,6 +14,8 @@
 		5B83812B1D24A40100862435 /* Lab05.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5B8381291D24A40100862435 /* Lab05.xcdatamodeld */; };
 		5B83812D1D24A40100862435 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B83812C1D24A40100862435 /* Assets.xcassets */; };
 		5B8381301D24A40100862435 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B83812E1D24A40100862435 /* LaunchScreen.storyboard */; };
+		5B83813D1D24A90F00862435 /* CellHome.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B83813B1D24A90F00862435 /* CellHome.m */; };
+		5B83813E1D24A90F00862435 /* CellHome.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B83813C1D24A90F00862435 /* CellHome.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,9 @@
 		5B83812C1D24A40100862435 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B83812F1D24A40100862435 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B8381311D24A40100862435 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B83813A1D24A90F00862435 /* CellHome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellHome.h; sourceTree = "<group>"; };
+		5B83813B1D24A90F00862435 /* CellHome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellHome.m; sourceTree = "<group>"; };
+		5B83813C1D24A90F00862435 /* CellHome.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellHome.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +65,7 @@
 		5B83811C1D24A40100862435 /* Lab05 */ = {
 			isa = PBXGroup;
 			children = (
+				5B8381391D24A8E600862435 /* Cells */,
 				5B8381381D24A41700862435 /* Controllers */,
 				5B8381371D24A41100862435 /* Main */,
 				5B8381261D24A40100862435 /* Main.storyboard */,
@@ -96,6 +102,16 @@
 				5B8381241D24A40100862435 /* Home.m */,
 			);
 			name = Controllers;
+			sourceTree = "<group>";
+		};
+		5B8381391D24A8E600862435 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				5B83813A1D24A90F00862435 /* CellHome.h */,
+				5B83813B1D24A90F00862435 /* CellHome.m */,
+				5B83813C1D24A90F00862435 /* CellHome.xib */,
+			);
+			name = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,6 +173,7 @@
 			files = (
 				5B8381301D24A40100862435 /* LaunchScreen.storyboard in Resources */,
 				5B83812D1D24A40100862435 /* Assets.xcassets in Resources */,
+				5B83813E1D24A90F00862435 /* CellHome.xib in Resources */,
 				5B8381281D24A40100862435 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -170,6 +187,7 @@
 			files = (
 				5B8381251D24A40100862435 /* Home.m in Sources */,
 				5B8381221D24A40100862435 /* AppDelegate.m in Sources */,
+				5B83813D1D24A90F00862435 /* CellHome.m in Sources */,
 				5B83812B1D24A40100862435 /* Lab05.xcdatamodeld in Sources */,
 				5B83811F1D24A40100862435 /* main.m in Sources */,
 			);
