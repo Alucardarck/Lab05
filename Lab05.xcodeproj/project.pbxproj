@@ -47,6 +47,7 @@
 		5B8381C11D25FC8900862435 /* Villa_Garcia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5B8381A31D25FC8900862435 /* Villa_Garcia.jpg */; };
 		5B8381C21D25FC8900862435 /* Zacatecas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5B8381A41D25FC8900862435 /* Zacatecas.jpg */; };
 		5B8381C41D260D0500862435 /* Fondo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5B8381C31D260D0500862435 /* Fondo.jpg */; };
+		5B8381C71D2611BB00862435 /* Window_Municipios.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8381C61D2611BB00862435 /* Window_Municipios.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -95,6 +96,8 @@
 		5B8381A31D25FC8900862435 /* Villa_Garcia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Villa_Garcia.jpg; sourceTree = "<group>"; };
 		5B8381A41D25FC8900862435 /* Zacatecas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Zacatecas.jpg; sourceTree = "<group>"; };
 		5B8381C31D260D0500862435 /* Fondo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Fondo.jpg; sourceTree = "<group>"; };
+		5B8381C51D2611BB00862435 /* Window_Municipios.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Window_Municipios.h; sourceTree = "<group>"; };
+		5B8381C61D2611BB00862435 /* Window_Municipios.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Window_Municipios.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +166,8 @@
 			children = (
 				5B8381231D24A40100862435 /* Home.h */,
 				5B8381241D24A40100862435 /* Home.m */,
+				5B8381C51D2611BB00862435 /* Window_Municipios.h */,
+				5B8381C61D2611BB00862435 /* Window_Municipios.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -358,6 +363,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B8381251D24A40100862435 /* Home.m in Sources */,
+				5B8381C71D2611BB00862435 /* Window_Municipios.m in Sources */,
 				5B8381221D24A40100862435 /* AppDelegate.m in Sources */,
 				5B83813D1D24A90F00862435 /* CellHome.m in Sources */,
 				5B83812B1D24A40100862435 /* Lab05.xcdatamodeld in Sources */,
