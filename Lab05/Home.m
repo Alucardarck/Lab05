@@ -45,7 +45,7 @@
 //--------------------------------------------------------------------------------------
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath: (NSIndexPath *) indexPath
 {
-    return 120; //Tamaño de la celda
+    return 190; //Tamaño de la celda
 }
 //--------------------------------------------------------------------------------------
 - (UITableViewCell *) tableView: (UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath

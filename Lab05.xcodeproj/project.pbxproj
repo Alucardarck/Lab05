@@ -16,6 +16,36 @@
 		5B8381301D24A40100862435 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B83812E1D24A40100862435 /* LaunchScreen.storyboard */; };
 		5B83813D1D24A90F00862435 /* CellHome.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B83813B1D24A90F00862435 /* CellHome.m */; };
 		5B83813E1D24A90F00862435 /* CellHome.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B83813C1D24A90F00862435 /* CellHome.xib */; };
+		5B8381A51D25FC8900862435 /* Aguascalientes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5B8381831D25FC8900862435 /* Aguascalientes.jpg */; };
+		5B8381A61D25FC8900862435 /* Asientos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5B8381841D25FC8900862435 /* Asientos.jpg */; };
+		5B8381A71D25FC8900862435 /* Calvillo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5B8381851D25FC8900862435 /* Calvillo.jpg */; };
+		5B8381A81D25FC8900862435 /* Jesus_Maria.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5B8381861D25FC8900862435 /* Jesus_Maria.jpg */; };
+		5B8381A91D25FC8900862435 /* Rincon_De_Los_Romos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5B8381871D25FC8900862435 /* Rincon_De_Los_Romos.jpg */; };
+		5B8381AA1D25FC8900862435 /* San_Francisco_De_Los_Romo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5B8381881D25FC8900862435 /* San_Francisco_De_Los_Romo.jpg */; };
+		5B8381AB1D25FC8900862435 /* Abasolo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5B83818A1D25FC8900862435 /* Abasolo.jpg */; };
+		5B8381AC1D25FC8900862435 /* Guanajuato.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5B83818B1D25FC8900862435 /* Guanajuato.jpg */; };
+		5B8381AD1D25FC8900862435 /* Jerecuaro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5B83818C1D25FC8900862435 /* Jerecuaro.jpg */; };
+		5B8381AE1D25FC8900862435 /* Santa_Catarina.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5B83818D1D25FC8900862435 /* Santa_Catarina.jpg */; };
+		5B8381AF1D25FC8900862435 /* Uriangato.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5B83818E1D25FC8900862435 /* Uriangato.jpg */; };
+		5B8381B01D25FC8900862435 /* Yuriria.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5B83818F1D25FC8900862435 /* Yuriria.jpg */; };
+		5B8381B11D25FC8900862435 /* Arenal.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5B8381911D25FC8900862435 /* Arenal.gif */; };
+		5B8381B21D25FC8900862435 /* Atotonilco.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5B8381921D25FC8900862435 /* Atotonilco.gif */; };
+		5B8381B31D25FC8900862435 /* Jalisco.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5B8381931D25FC8900862435 /* Jalisco.jpg */; };
+		5B8381B41D25FC8900862435 /* Juchitlan.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5B8381941D25FC8900862435 /* Juchitlan.gif */; };
+		5B8381B51D25FC8900862435 /* La_Barca.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5B8381951D25FC8900862435 /* La_Barca.gif */; };
+		5B8381B61D25FC8900862435 /* Mayutla.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5B8381961D25FC8900862435 /* Mayutla.jpg */; };
+		5B8381B71D25FC8900862435 /* Acuitzio.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5B8381981D25FC8900862435 /* Acuitzio.jpg */; };
+		5B8381B81D25FC8900862435 /* Huadacareo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5B8381991D25FC8900862435 /* Huadacareo.jpg */; };
+		5B8381B91D25FC8900862435 /* Huetamo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5B83819A1D25FC8900862435 /* Huetamo.jpg */; };
+		5B8381BA1D25FC8900862435 /* Michoacan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5B83819B1D25FC8900862435 /* Michoacan.jpg */; };
+		5B8381BB1D25FC8900862435 /* Numaran.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5B83819C1D25FC8900862435 /* Numaran.jpg */; };
+		5B8381BC1D25FC8900862435 /* Zitacuaro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5B83819D1D25FC8900862435 /* Zitacuaro.jpg */; };
+		5B8381BD1D25FC8900862435 /* Apozol.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5B83819F1D25FC8900862435 /* Apozol.jpg */; };
+		5B8381BE1D25FC8900862435 /* Apulco.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5B8381A01D25FC8900862435 /* Apulco.jpg */; };
+		5B8381BF1D25FC8900862435 /* Genaro_Codina.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5B8381A11D25FC8900862435 /* Genaro_Codina.jpg */; };
+		5B8381C01D25FC8900862435 /* Jerez.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5B8381A21D25FC8900862435 /* Jerez.jpg */; };
+		5B8381C11D25FC8900862435 /* Villa_Garcia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5B8381A31D25FC8900862435 /* Villa_Garcia.jpg */; };
+		5B8381C21D25FC8900862435 /* Zacatecas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5B8381A41D25FC8900862435 /* Zacatecas.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +63,36 @@
 		5B83813A1D24A90F00862435 /* CellHome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellHome.h; sourceTree = "<group>"; };
 		5B83813B1D24A90F00862435 /* CellHome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellHome.m; sourceTree = "<group>"; };
 		5B83813C1D24A90F00862435 /* CellHome.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellHome.xib; sourceTree = "<group>"; };
+		5B8381831D25FC8900862435 /* Aguascalientes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Aguascalientes.jpg; sourceTree = "<group>"; };
+		5B8381841D25FC8900862435 /* Asientos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Asientos.jpg; sourceTree = "<group>"; };
+		5B8381851D25FC8900862435 /* Calvillo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Calvillo.jpg; sourceTree = "<group>"; };
+		5B8381861D25FC8900862435 /* Jesus_Maria.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Jesus_Maria.jpg; sourceTree = "<group>"; };
+		5B8381871D25FC8900862435 /* Rincon_De_Los_Romos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Rincon_De_Los_Romos.jpg; sourceTree = "<group>"; };
+		5B8381881D25FC8900862435 /* San_Francisco_De_Los_Romo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = San_Francisco_De_Los_Romo.jpg; sourceTree = "<group>"; };
+		5B83818A1D25FC8900862435 /* Abasolo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Abasolo.jpg; sourceTree = "<group>"; };
+		5B83818B1D25FC8900862435 /* Guanajuato.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Guanajuato.jpg; sourceTree = "<group>"; };
+		5B83818C1D25FC8900862435 /* Jerecuaro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Jerecuaro.jpg; sourceTree = "<group>"; };
+		5B83818D1D25FC8900862435 /* Santa_Catarina.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Santa_Catarina.jpg; sourceTree = "<group>"; };
+		5B83818E1D25FC8900862435 /* Uriangato.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Uriangato.jpg; sourceTree = "<group>"; };
+		5B83818F1D25FC8900862435 /* Yuriria.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Yuriria.jpg; sourceTree = "<group>"; };
+		5B8381911D25FC8900862435 /* Arenal.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Arenal.gif; sourceTree = "<group>"; };
+		5B8381921D25FC8900862435 /* Atotonilco.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Atotonilco.gif; sourceTree = "<group>"; };
+		5B8381931D25FC8900862435 /* Jalisco.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Jalisco.jpg; sourceTree = "<group>"; };
+		5B8381941D25FC8900862435 /* Juchitlan.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Juchitlan.gif; sourceTree = "<group>"; };
+		5B8381951D25FC8900862435 /* La_Barca.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = La_Barca.gif; sourceTree = "<group>"; };
+		5B8381961D25FC8900862435 /* Mayutla.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mayutla.jpg; sourceTree = "<group>"; };
+		5B8381981D25FC8900862435 /* Acuitzio.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Acuitzio.jpg; sourceTree = "<group>"; };
+		5B8381991D25FC8900862435 /* Huadacareo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Huadacareo.jpg; sourceTree = "<group>"; };
+		5B83819A1D25FC8900862435 /* Huetamo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Huetamo.jpg; sourceTree = "<group>"; };
+		5B83819B1D25FC8900862435 /* Michoacan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Michoacan.jpg; sourceTree = "<group>"; };
+		5B83819C1D25FC8900862435 /* Numaran.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Numaran.jpg; sourceTree = "<group>"; };
+		5B83819D1D25FC8900862435 /* Zitacuaro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Zitacuaro.jpg; sourceTree = "<group>"; };
+		5B83819F1D25FC8900862435 /* Apozol.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Apozol.jpg; sourceTree = "<group>"; };
+		5B8381A01D25FC8900862435 /* Apulco.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Apulco.jpg; sourceTree = "<group>"; };
+		5B8381A11D25FC8900862435 /* Genaro_Codina.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Genaro_Codina.jpg; sourceTree = "<group>"; };
+		5B8381A21D25FC8900862435 /* Jerez.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Jerez.jpg; sourceTree = "<group>"; };
+		5B8381A31D25FC8900862435 /* Villa_Garcia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Villa_Garcia.jpg; sourceTree = "<group>"; };
+		5B8381A41D25FC8900862435 /* Zacatecas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Zacatecas.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +125,7 @@
 		5B83811C1D24A40100862435 /* Lab05 */ = {
 			isa = PBXGroup;
 			children = (
+				5B8381811D25FC8900862435 /* imgs */,
 				5B8381391D24A8E600862435 /* Cells */,
 				5B8381381D24A41700862435 /* Controllers */,
 				5B8381371D24A41100862435 /* Main */,
@@ -112,6 +173,83 @@
 				5B83813C1D24A90F00862435 /* CellHome.xib */,
 			);
 			name = Cells;
+			sourceTree = "<group>";
+		};
+		5B8381811D25FC8900862435 /* imgs */ = {
+			isa = PBXGroup;
+			children = (
+				5B8381821D25FC8900862435 /* Aguascalientes */,
+				5B8381891D25FC8900862435 /* Guanajuato */,
+				5B8381901D25FC8900862435 /* Jalisco */,
+				5B8381971D25FC8900862435 /* Michoacan */,
+				5B83819E1D25FC8900862435 /* Zacatecas */,
+			);
+			path = imgs;
+			sourceTree = "<group>";
+		};
+		5B8381821D25FC8900862435 /* Aguascalientes */ = {
+			isa = PBXGroup;
+			children = (
+				5B8381831D25FC8900862435 /* Aguascalientes.jpg */,
+				5B8381841D25FC8900862435 /* Asientos.jpg */,
+				5B8381851D25FC8900862435 /* Calvillo.jpg */,
+				5B8381861D25FC8900862435 /* Jesus_Maria.jpg */,
+				5B8381871D25FC8900862435 /* Rincon_De_Los_Romos.jpg */,
+				5B8381881D25FC8900862435 /* San_Francisco_De_Los_Romo.jpg */,
+			);
+			path = Aguascalientes;
+			sourceTree = "<group>";
+		};
+		5B8381891D25FC8900862435 /* Guanajuato */ = {
+			isa = PBXGroup;
+			children = (
+				5B83818A1D25FC8900862435 /* Abasolo.jpg */,
+				5B83818B1D25FC8900862435 /* Guanajuato.jpg */,
+				5B83818C1D25FC8900862435 /* Jerecuaro.jpg */,
+				5B83818D1D25FC8900862435 /* Santa_Catarina.jpg */,
+				5B83818E1D25FC8900862435 /* Uriangato.jpg */,
+				5B83818F1D25FC8900862435 /* Yuriria.jpg */,
+			);
+			path = Guanajuato;
+			sourceTree = "<group>";
+		};
+		5B8381901D25FC8900862435 /* Jalisco */ = {
+			isa = PBXGroup;
+			children = (
+				5B8381911D25FC8900862435 /* Arenal.gif */,
+				5B8381921D25FC8900862435 /* Atotonilco.gif */,
+				5B8381931D25FC8900862435 /* Jalisco.jpg */,
+				5B8381941D25FC8900862435 /* Juchitlan.gif */,
+				5B8381951D25FC8900862435 /* La_Barca.gif */,
+				5B8381961D25FC8900862435 /* Mayutla.jpg */,
+			);
+			path = Jalisco;
+			sourceTree = "<group>";
+		};
+		5B8381971D25FC8900862435 /* Michoacan */ = {
+			isa = PBXGroup;
+			children = (
+				5B8381981D25FC8900862435 /* Acuitzio.jpg */,
+				5B8381991D25FC8900862435 /* Huadacareo.jpg */,
+				5B83819A1D25FC8900862435 /* Huetamo.jpg */,
+				5B83819B1D25FC8900862435 /* Michoacan.jpg */,
+				5B83819C1D25FC8900862435 /* Numaran.jpg */,
+				5B83819D1D25FC8900862435 /* Zitacuaro.jpg */,
+			);
+			path = Michoacan;
+			sourceTree = "<group>";
+		};
+		5B83819E1D25FC8900862435 /* Zacatecas */ = {
+			isa = PBXGroup;
+			children = (
+				5B83819F1D25FC8900862435 /* Apozol.jpg */,
+				5B8381A01D25FC8900862435 /* Apulco.jpg */,
+				5B8381A11D25FC8900862435 /* Genaro_Codina.jpg */,
+				5B8381A21D25FC8900862435 /* Jerez.jpg */,
+				5B8381A31D25FC8900862435 /* Villa_Garcia.jpg */,
+				5B8381A41D25FC8900862435 /* Zacatecas.jpg */,
+			);
+			path = Zacatecas;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,10 +309,40 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B8381AE1D25FC8900862435 /* Santa_Catarina.jpg in Resources */,
+				5B8381AC1D25FC8900862435 /* Guanajuato.jpg in Resources */,
+				5B8381B31D25FC8900862435 /* Jalisco.jpg in Resources */,
+				5B8381BD1D25FC8900862435 /* Apozol.jpg in Resources */,
+				5B8381A91D25FC8900862435 /* Rincon_De_Los_Romos.jpg in Resources */,
 				5B8381301D24A40100862435 /* LaunchScreen.storyboard in Resources */,
+				5B8381A81D25FC8900862435 /* Jesus_Maria.jpg in Resources */,
+				5B8381BC1D25FC8900862435 /* Zitacuaro.jpg in Resources */,
+				5B8381A71D25FC8900862435 /* Calvillo.jpg in Resources */,
+				5B8381BA1D25FC8900862435 /* Michoacan.jpg in Resources */,
+				5B8381B71D25FC8900862435 /* Acuitzio.jpg in Resources */,
 				5B83812D1D24A40100862435 /* Assets.xcassets in Resources */,
+				5B8381AF1D25FC8900862435 /* Uriangato.jpg in Resources */,
+				5B8381B81D25FC8900862435 /* Huadacareo.jpg in Resources */,
+				5B8381B61D25FC8900862435 /* Mayutla.jpg in Resources */,
+				5B8381AB1D25FC8900862435 /* Abasolo.jpg in Resources */,
 				5B83813E1D24A90F00862435 /* CellHome.xib in Resources */,
+				5B8381AA1D25FC8900862435 /* San_Francisco_De_Los_Romo.jpg in Resources */,
+				5B8381B11D25FC8900862435 /* Arenal.gif in Resources */,
+				5B8381A61D25FC8900862435 /* Asientos.jpg in Resources */,
+				5B8381B51D25FC8900862435 /* La_Barca.gif in Resources */,
+				5B8381C21D25FC8900862435 /* Zacatecas.jpg in Resources */,
+				5B8381BB1D25FC8900862435 /* Numaran.jpg in Resources */,
+				5B8381AD1D25FC8900862435 /* Jerecuaro.jpg in Resources */,
+				5B8381B41D25FC8900862435 /* Juchitlan.gif in Resources */,
+				5B8381C11D25FC8900862435 /* Villa_Garcia.jpg in Resources */,
+				5B8381C01D25FC8900862435 /* Jerez.jpg in Resources */,
+				5B8381BF1D25FC8900862435 /* Genaro_Codina.jpg in Resources */,
+				5B8381B91D25FC8900862435 /* Huetamo.jpg in Resources */,
+				5B8381B21D25FC8900862435 /* Atotonilco.gif in Resources */,
 				5B8381281D24A40100862435 /* Main.storyboard in Resources */,
+				5B8381BE1D25FC8900862435 /* Apulco.jpg in Resources */,
+				5B8381A51D25FC8900862435 /* Aguascalientes.jpg in Resources */,
+				5B8381B01D25FC8900862435 /* Yuriria.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
