@@ -9,6 +9,8 @@
 #import "Declarations.h"
 
 NSInteger *NumTable;    //  Numero de Celda Precionda
+NSString *stTitleSelected;
+NSString *stPhotoSelected;
 
 
 @implementation Declarations

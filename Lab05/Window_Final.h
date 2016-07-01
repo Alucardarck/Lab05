@@ -10,5 +10,10 @@
 #import "Declarations.h"
 
 @interface Window_Final : UIViewController
+@property NSString *destinationTitles;
+@property NSString *destinationImgs;
+
+@property (strong, nonatomic) IBOutlet UIImageView *imgFinal;
+@property (strong, nonatomic) IBOutlet UILabel *lblFinal;
 
 @end

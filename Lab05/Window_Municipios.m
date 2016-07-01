@@ -11,6 +11,8 @@
 @interface Window_Municipios ()
 @property NSMutableArray *destinationTitles;
 @property NSMutableArray *destinationImgs;
+
+
 @end
 
 @implementation Window_Municipios
@@ -104,25 +106,12 @@
 - (void)tableView: (UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     
-    //self.stTitleSelected        = self.destinationTitles[indexPath.row];
-    //self.stDescriptionSelected  = self.destinationDescriptions[indexPath.row];
-    //self.stPhotoSelected        = self.destinationPhotos[indexPath.row];
+    stTitleSelected        = self.destinationTitles[indexPath.row];
+    stPhotoSelected        = self.destinationImgs[indexPath.row];
     [self performSegueWithIdentifier: @"Window_Final" sender:self];  //Se realiza la saga llamada Window_Municipios
 }
 //--------------------------------------------------------------------------------------
-/**********************************************************************************************/
-#pragma mark - Navigation
-/**********************************************************************************************/
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    
-    //  if ([segue.destinationViewController isKindOfClass:[DestinationDetails class]]) {
-    //      DestinationDetails *destination     = [segue destinationViewController];
-    //      destination.destinationTitle        = self.stTitleSelected;
-    //      destination.destinationDescription  = self.stDescriptionSelected;
-    //      destination.destinationPhoto        = self.stPhotoSelected;
-    //
-    //   }
-}
+
 
 
 

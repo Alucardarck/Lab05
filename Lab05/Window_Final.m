@@ -16,6 +16,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.lblFinal.text = stTitleSelected;
+    self.imgFinal.image = [UIImage imageNamed:stPhotoSelected];
+    
+
     // Do any additional setup after loading the view.
 }
 

@@ -9,6 +9,8 @@
 #import <Foundation/Foundation.h>
 
 extern NSInteger *NumTable;
+extern NSString *stTitleSelected;
+extern NSString *stPhotoSelected;
 
 @interface Declarations : NSObject
 
