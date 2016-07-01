@@ -9,7 +9,8 @@
 #import "Home.h"
 
 @interface Home ()
-@property NSMutableArray *homeArray;
+@property NSMutableArray *destinationTitles;
+@property NSMutableArray *destinationImgs;
 @end
 
 @implementation Home
@@ -28,7 +29,9 @@
 }
 //--------------------------------------------------------------------------------------
 - (void)initController {
-    self.homeArray   = [[NSMutableArray alloc] initWithObjects: @"Aguascalientes",@"Guanajuato",@"Jalisco",@"Michoacan",@"Zacatecas",nil];
+    self.destinationTitles   = [[NSMutableArray alloc] initWithObjects: @"Aguascalientes",@"Guanajuato",@"Jalisco",@"Michoacan",@"Zacatecas",nil];
+    
+    self.destinationImgs   = [[NSMutableArray alloc] initWithObjects: @"Aguascalientes.jpg",@"Guanajuato.jpg",@"Jalisco.jpg",@"Michoacan.jpg",@"Zacatecas.jpg",nil];
 }
 /**********************************************************************************************/
 #pragma mark - Table methods and delegates
@@ -40,7 +43,7 @@
 //--------------------------------------------------------------------------------------
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection: (NSInteger) section
 {
-    return self.homeArray.count;
+    return self.destinationTitles.count;
 }
 //--------------------------------------------------------------------------------------
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath: (NSIndexPath *) indexPath
@@ -59,6 +62,9 @@
         forCellReuseIdentifier:@"CellHome"];
         cell= [tableView dequeueReusableCellWithIdentifier:@"CellHome"];
     }
+    cell.lblEstado.text = self.destinationTitles[indexPath.row];
+    cell.imgEstado.image = [UIImage imageNamed:self.destinationImgs[indexPath.row]];
+    
     
     return cell;
 }

@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface CellHome : UITableViewCell
+@property (strong, nonatomic) IBOutlet UIImageView *imgEstado;
 
+@property (strong, nonatomic) IBOutlet UILabel *lblEstado;
 @end

@@ -46,6 +46,7 @@
 		5B8381C01D25FC8900862435 /* Jerez.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5B8381A21D25FC8900862435 /* Jerez.jpg */; };
 		5B8381C11D25FC8900862435 /* Villa_Garcia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5B8381A31D25FC8900862435 /* Villa_Garcia.jpg */; };
 		5B8381C21D25FC8900862435 /* Zacatecas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5B8381A41D25FC8900862435 /* Zacatecas.jpg */; };
+		5B8381C41D260D0500862435 /* Fondo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5B8381C31D260D0500862435 /* Fondo.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -93,6 +94,7 @@
 		5B8381A21D25FC8900862435 /* Jerez.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Jerez.jpg; sourceTree = "<group>"; };
 		5B8381A31D25FC8900862435 /* Villa_Garcia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Villa_Garcia.jpg; sourceTree = "<group>"; };
 		5B8381A41D25FC8900862435 /* Zacatecas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Zacatecas.jpg; sourceTree = "<group>"; };
+		5B8381C31D260D0500862435 /* Fondo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Fondo.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +180,7 @@
 		5B8381811D25FC8900862435 /* imgs */ = {
 			isa = PBXGroup;
 			children = (
+				5B8381C31D260D0500862435 /* Fondo.jpg */,
 				5B8381821D25FC8900862435 /* Aguascalientes */,
 				5B8381891D25FC8900862435 /* Guanajuato */,
 				5B8381901D25FC8900862435 /* Jalisco */,
@@ -325,6 +328,7 @@
 				5B8381B81D25FC8900862435 /* Huadacareo.jpg in Resources */,
 				5B8381B61D25FC8900862435 /* Mayutla.jpg in Resources */,
 				5B8381AB1D25FC8900862435 /* Abasolo.jpg in Resources */,
+				5B8381C41D260D0500862435 /* Fondo.jpg in Resources */,
 				5B83813E1D24A90F00862435 /* CellHome.xib in Resources */,
 				5B8381AA1D25FC8900862435 /* San_Francisco_De_Los_Romo.jpg in Resources */,
 				5B8381B11D25FC8900862435 /* Arenal.gif in Resources */,
