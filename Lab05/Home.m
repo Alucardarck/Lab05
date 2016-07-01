@@ -32,6 +32,7 @@
     self.destinationTitles   = [[NSMutableArray alloc] initWithObjects: @"Aguascalientes",@"Guanajuato",@"Jalisco",@"Michoacan",@"Zacatecas",nil];
     
     self.destinationImgs   = [[NSMutableArray alloc] initWithObjects: @"Aguascalientes.jpg",@"Guanajuato.jpg",@"Jalisco.jpg",@"Michoacan.jpg",@"Zacatecas.jpg",nil];
+    
 }
 /**********************************************************************************************/
 #pragma mark - Table methods and delegates
@@ -72,24 +73,9 @@
 - (void)tableView: (UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
 
-    //self.stTitleSelected        = self.destinationTitles[indexPath.row];
-    //self.stDescriptionSelected  = self.destinationDescriptions[indexPath.row];
-    //self.stPhotoSelected        = self.destinationPhotos[indexPath.row];
+    NumTable = (NSInteger *)indexPath.row;
     [self performSegueWithIdentifier: @"Window_Municipios" sender:self];  //Se realiza la saga llamada Window_Municipios
 }
-//--------------------------------------------------------------------------------------
-/**********************************************************************************************/
-#pragma mark - Navigation
-/**********************************************************************************************/
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    
-  //  if ([segue.destinationViewController isKindOfClass:[DestinationDetails class]]) {
-  //      DestinationDetails *destination     = [segue destinationViewController];
-  //      destination.destinationTitle        = self.stTitleSelected;
-  //      destination.destinationDescription  = self.stDescriptionSelected;
-  //      destination.destinationPhoto        = self.stPhotoSelected;
-  //
- //   }
-}
+
 
 @end

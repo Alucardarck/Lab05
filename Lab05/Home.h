@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "CellHome.h"
+#import "Declarations.h"
 
 @interface Home : UIViewController
 

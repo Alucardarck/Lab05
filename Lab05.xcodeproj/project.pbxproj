@@ -49,6 +49,9 @@
 		5B8381C41D260D0500862435 /* Fondo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5B8381C31D260D0500862435 /* Fondo.jpg */; };
 		5B8381C71D2611BB00862435 /* Window_Municipios.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8381C61D2611BB00862435 /* Window_Municipios.m */; };
 		5B8381CA1D26288100862435 /* Window_Final.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8381C91D26288100862435 /* Window_Final.m */; };
+		5B8381CE1D262AE900862435 /* Declarations.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8381CD1D262AE900862435 /* Declarations.m */; };
+		5B8381D71D26325600862435 /* Cell_2.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8381D51D26325600862435 /* Cell_2.m */; };
+		5B8381D81D26325600862435 /* Cell_2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B8381D61D26325600862435 /* Cell_2.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -101,6 +104,11 @@
 		5B8381C61D2611BB00862435 /* Window_Municipios.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Window_Municipios.m; sourceTree = "<group>"; };
 		5B8381C81D26288100862435 /* Window_Final.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Window_Final.h; sourceTree = "<group>"; };
 		5B8381C91D26288100862435 /* Window_Final.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Window_Final.m; sourceTree = "<group>"; };
+		5B8381CC1D262AE900862435 /* Declarations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Declarations.h; sourceTree = "<group>"; };
+		5B8381CD1D262AE900862435 /* Declarations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Declarations.m; sourceTree = "<group>"; };
+		5B8381D41D26325600862435 /* Cell_2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell_2.h; sourceTree = "<group>"; };
+		5B8381D51D26325600862435 /* Cell_2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell_2.m; sourceTree = "<group>"; };
+		5B8381D61D26325600862435 /* Cell_2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Cell_2.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +141,7 @@
 		5B83811C1D24A40100862435 /* Lab05 */ = {
 			isa = PBXGroup;
 			children = (
+				5B8381CB1D262A1800862435 /* Declarations */,
 				5B8381811D25FC8900862435 /* imgs */,
 				5B8381391D24A8E600862435 /* Cells */,
 				5B8381381D24A41700862435 /* Controllers */,
@@ -183,6 +192,9 @@
 				5B83813A1D24A90F00862435 /* CellHome.h */,
 				5B83813B1D24A90F00862435 /* CellHome.m */,
 				5B83813C1D24A90F00862435 /* CellHome.xib */,
+				5B8381D41D26325600862435 /* Cell_2.h */,
+				5B8381D51D26325600862435 /* Cell_2.m */,
+				5B8381D61D26325600862435 /* Cell_2.xib */,
 			);
 			name = Cells;
 			sourceTree = "<group>";
@@ -263,6 +275,15 @@
 				5B8381A41D25FC8900862435 /* Zacatecas.jpg */,
 			);
 			path = Zacatecas;
+			sourceTree = "<group>";
+		};
+		5B8381CB1D262A1800862435 /* Declarations */ = {
+			isa = PBXGroup;
+			children = (
+				5B8381CC1D262AE900862435 /* Declarations.h */,
+				5B8381CD1D262AE900862435 /* Declarations.m */,
+			);
+			name = Declarations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -350,6 +371,7 @@
 				5B8381B41D25FC8900862435 /* Juchitlan.gif in Resources */,
 				5B8381C11D25FC8900862435 /* Villa_Garcia.jpg in Resources */,
 				5B8381C01D25FC8900862435 /* Jerez.jpg in Resources */,
+				5B8381D81D26325600862435 /* Cell_2.xib in Resources */,
 				5B8381BF1D25FC8900862435 /* Genaro_Codina.jpg in Resources */,
 				5B8381B91D25FC8900862435 /* Huetamo.jpg in Resources */,
 				5B8381B21D25FC8900862435 /* Atotonilco.gif in Resources */,
@@ -369,6 +391,8 @@
 			files = (
 				5B8381CA1D26288100862435 /* Window_Final.m in Sources */,
 				5B8381251D24A40100862435 /* Home.m in Sources */,
+				5B8381D71D26325600862435 /* Cell_2.m in Sources */,
+				5B8381CE1D262AE900862435 /* Declarations.m in Sources */,
 				5B8381C71D2611BB00862435 /* Window_Municipios.m in Sources */,
 				5B8381221D24A40100862435 /* AppDelegate.m in Sources */,
 				5B83813D1D24A90F00862435 /* CellHome.m in Sources */,
