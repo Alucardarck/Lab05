@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "CellHome.h"
+#import "Cell_2.h"
 #import "Declarations.h"
 
 @interface Window_Municipios : UIViewController

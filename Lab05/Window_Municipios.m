@@ -80,22 +80,22 @@
 //--------------------------------------------------------------------------------------
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath: (NSIndexPath *) indexPath
 {
-    return 190; //Tamaño de la celda
+    return 300; //Tamaño de la celda
 }
 //--------------------------------------------------------------------------------------
 - (UITableViewCell *) tableView: (UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     //Inicializacion de celdas.
-    CellHome *cell = (CellHome *) [tableView dequeueReusableCellWithIdentifier:@"CellHome"];
+    Cell_2 *cell = (Cell_2 *) [tableView dequeueReusableCellWithIdentifier:@"Cell_2"];
     
     if (cell==nil)
     {
-        [tableView registerNib:[UINib nibWithNibName:@"CellHome" bundle:nil]
-        forCellReuseIdentifier:@"CellHome"];
-        cell= [tableView dequeueReusableCellWithIdentifier:@"CellHome"];
+        [tableView registerNib:[UINib nibWithNibName:@"Cell_2" bundle:nil]
+        forCellReuseIdentifier:@"Cell_2"];
+        cell= [tableView dequeueReusableCellWithIdentifier:@"Cell_2"];
     }
-    cell.lblEstado.text = self.destinationTitles[indexPath.row];
-    cell.imgEstado.image = [UIImage imageNamed:self.destinationImgs[indexPath.row]];
+    cell.lblMunicipio.text = self.destinationTitles[indexPath.row];
+    cell.imgMunicipio.image = [UIImage imageNamed:self.destinationImgs[indexPath.row]];
     
     
     return cell;

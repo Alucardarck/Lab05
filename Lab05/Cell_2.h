@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface Cell_2 : UITableViewCell
+@property (strong, nonatomic) IBOutlet UILabel *lblMunicipio;
+@property (strong, nonatomic) IBOutlet UIImageView *imgMunicipio;
 
 @end
