@@ -57,10 +57,28 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="h7D-hg-D8H"/>
+                    <connections>
+                        <segue destination="YXS-Ps-zjT" kind="push" identifier="Window_Final" id="jl2-s2-F1R"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2WQ-hU-2vh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="593" y="337"/>
+        </scene>
+        <!--Window Final-->
+        <scene sceneID="cNm-xB-H5v">
+            <objects>
+                <viewController storyboardIdentifier="Window_Final" id="YXS-Ps-zjT" customClass="Window_Final" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="y90-9E-JJV">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="6DI-ri-THY"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d4v-Pk-R1N" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1001" y="337"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="XY5-RG-yqm">

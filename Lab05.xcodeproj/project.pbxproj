@@ -48,6 +48,7 @@
 		5B8381C21D25FC8900862435 /* Zacatecas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5B8381A41D25FC8900862435 /* Zacatecas.jpg */; };
 		5B8381C41D260D0500862435 /* Fondo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5B8381C31D260D0500862435 /* Fondo.jpg */; };
 		5B8381C71D2611BB00862435 /* Window_Municipios.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8381C61D2611BB00862435 /* Window_Municipios.m */; };
+		5B8381CA1D26288100862435 /* Window_Final.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8381C91D26288100862435 /* Window_Final.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -98,6 +99,8 @@
 		5B8381C31D260D0500862435 /* Fondo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Fondo.jpg; sourceTree = "<group>"; };
 		5B8381C51D2611BB00862435 /* Window_Municipios.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Window_Municipios.h; sourceTree = "<group>"; };
 		5B8381C61D2611BB00862435 /* Window_Municipios.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Window_Municipios.m; sourceTree = "<group>"; };
+		5B8381C81D26288100862435 /* Window_Final.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Window_Final.h; sourceTree = "<group>"; };
+		5B8381C91D26288100862435 /* Window_Final.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Window_Final.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +171,8 @@
 				5B8381241D24A40100862435 /* Home.m */,
 				5B8381C51D2611BB00862435 /* Window_Municipios.h */,
 				5B8381C61D2611BB00862435 /* Window_Municipios.m */,
+				5B8381C81D26288100862435 /* Window_Final.h */,
+				5B8381C91D26288100862435 /* Window_Final.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -362,6 +367,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B8381CA1D26288100862435 /* Window_Final.m in Sources */,
 				5B8381251D24A40100862435 /* Home.m in Sources */,
 				5B8381C71D2611BB00862435 /* Window_Municipios.m in Sources */,
 				5B8381221D24A40100862435 /* AppDelegate.m in Sources */,
